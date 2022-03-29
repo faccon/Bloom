@@ -15,7 +15,7 @@ env:
 
 defaults:
   run:
-    working-directory: client
+    working-directory: bloomClient
 
 jobs:
   setup-build-publish-deploy:
@@ -53,5 +53,5 @@ jobs:
         shell: bash
       - name: Deploy manifest file from ./bloomServer folder
         run: ibmcloud cf push -f $MANIFEST_NAME
-        working-directory: server
+        working-directory: bloomServer
         shell: bash
