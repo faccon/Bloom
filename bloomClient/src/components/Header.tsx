@@ -6,7 +6,7 @@ export function Header() {
     <nav className="navbar fixed-top navbar-expand-md navbar-light">
       <div className="container-fluid">
         <i className="fa-brands fa-bootstrap"></i>
-        <a className="navbar-brand d-flex align-items-center" href="#">
+        <a className="navbar-brand d-flex align-items-center" href="/">
           <span className="material-icons-outlined d-none d-md-block">
             search
           </span>
@@ -27,7 +27,7 @@ export function Header() {
         </div>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-            <a className="nav-link active" aria-current="page" href="#">
+            <a className="nav-link active" aria-current="page" href="/">
               {NAVBAR.WOMAN}
             </a>
             <a className="nav-link" href="/">

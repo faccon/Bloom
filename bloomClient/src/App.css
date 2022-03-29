@@ -126,6 +126,117 @@ body {
 
 @media only screen and (min-width: 960px) {
   /* styles for browsers larger than 960px; */
+
+  .highlight {
+    /* background-color: aqua; */
+  }
+  
+  .highlight .l-left {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+  }
+  
+  .highlight .l-sub {
+    font-size: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'PT Serif', serif;
+  }
+  
+  .highlight .plus {
+    font-size: 60px;
+    color: rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar {
+    font-size: 10px;
+    width: 90%;
+    display: flex;
+    color: black;
+    position: relative;
+  }
+  
+  .navbar-brand {
+    color: black;
+  }
+  
+  .navbar-nav {
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+    color: black;
+    align-items: center;
+  }
+  
+  .brand {
+    text-decoration: none;
+    color: purple;
+    font-family: 'PT Serif', serif;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 20px;
+    top: 60px;
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+  }
+  
+  .nav-link {
+    color: black;
+    text-align: center;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+  }
+  
+  .navbar-nav .nav-link.active {
+    border-bottom: 2px solid purple;
+    background-color: rgb(238, 222, 238);
+    font-weight: bold;
+    padding-left: 5px;
+  }
+
+  .navbar-nav .nav-link:focus,
+  .navbar-nav .nav-link:hover {
+    color: purple;
+  }
+  
+  .FirstPage {
+    width: 90vw;
+    margin: 5vh 0 5vh 0;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: var(--section-border-radius);
+  }
+  
+  .rotated-label {
+    -ms-transform: rotate(270deg); /* IE 9 */
+    -webkit-transform: rotate(270deg); /* Chrome, Safari, Opera */
+    transform: rotate(270deg);
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 16vh;
+    position: relative;
+    top: 19vh;
+    left: 7vw;
+    font-size: 18vh;
+  }
+  
+  .container .thumbnail {
+    width: 100px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(-15%);
+    top: calc((var(--navbar-height)) + 5%);
+  }
+  
+  .label-container img {
+    position: absolute;
+    width: 70vh;
+    bottom: 0px;
+    right: 6vw;
+    /* height: 400px; */
+  }
+
 }
 @media only screen and (min-width: 1440px) {
   /* styles for browsers larger than 1440px; */
