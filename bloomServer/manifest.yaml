@@ -1,0 +1,8 @@
+---
+applications:
+- path: .
+  name: bloom
+  route: bloom.babdevs.com
+  memory: 128M
+  buildpack: nodejs_buildpack 
+  instances: 2
